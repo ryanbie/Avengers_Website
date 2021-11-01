@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   font-family: 'Merriweather', serif;
   margin: 0 auto;
   text-align: center;
@@ -10,4 +11,15 @@ h1 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.navlist {
+  padding: 2%;
+}
+
+.navlist a {
+  color: white;
+  font-family: monospace;
+  font-size: 2vw;
+  padding: 2%;
 }
