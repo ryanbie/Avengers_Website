@@ -2,15 +2,13 @@ body {
   background-color: black;
   font-family: 'Merriweather', serif;
   margin: 0 auto;
+  padding: 8%;
   text-align: center;
 }
 
 h1 {
+  color: white;
   font-family: 'Sacramento', cursive;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .navlist {
@@ -19,7 +17,11 @@ p {
 
 .navlist a {
   color: white;
-  font-family: monospace;
+  font-family: 'Sacramento', cursive;
   font-size: 2vw;
   padding: 2%;
+}
+
+.navlist a:hover {
+  background-color: rgb(25,25,25);
 }
